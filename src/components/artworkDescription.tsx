@@ -25,7 +25,7 @@ export default function ArtworkDetail({ artwork }: Props) {
         <img
           src={`https://www.artic.edu/iiif/2/${artwork.image_id}/full/843,/0/default.jpg`}
           alt={artwork.title}
-          className=" h-[500px] w-[700px] px-10 lg:h-[500px] lg:w-[500px]"
+          className=" h-[250px] w-[700px] px-10 lg:h-[500px] lg:w-[500px]"
         />
         <h2 className="px-10 pb-4 text-center text-3xl font-bold lg:w-[500px]">
           {artwork.title}

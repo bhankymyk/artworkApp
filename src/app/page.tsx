@@ -78,7 +78,7 @@ export default function Home() {
                   <img
                     src={`https://www.artic.edu/iiif/2/${art.image_id}/full/843,/0/default.jpg`}
                     alt={art.title}
-                    className="h-[250px] w-[250px] lg:h-[500px] lg:w-[500px]"
+                    className="h-[200px] w-[300px] lg:h-[500px] lg:w-[500px]"
                     onError={handleImageError}
                   />
                   <h2 className="text-center font-bold  lg:text-3xl ">
