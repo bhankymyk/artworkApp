@@ -68,7 +68,7 @@ export default function Home() {
           <p>Loading...</p>
         ) : (
           <div>
-            <div className="grid cursor-pointer grid-cols-1 gap-10 p-10 shadow-xl lg:grid-cols-3">
+            <div className="grid cursor-pointer grid-cols-1 gap-10 p-10 shadow-xl  lg:grid-cols-3 md:grid-cols-3">
               {artworks.map((art) => (
                 <Link
                   href={`/artworks/${art.id}`}
