@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Spinner from '@/spinner';
 
 interface Artwork {
   id: number;
@@ -65,7 +66,8 @@ export default function Home() {
           Welcome to Artify
         </h1>
         {loading ? (
-          <p>Loading...</p>
+            <Spinner/>
+          // <p>Loading...</p>
         ) : (
           <div>
             <div className="grid cursor-pointer grid-cols-1 gap-10 p-10 shadow-xl  lg:grid-cols-3 md:grid-cols-3">
